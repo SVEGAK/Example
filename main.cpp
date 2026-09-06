@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lib_main.h"
 int main() {
 	double a, h;
 	system("chcp 65001");system("cls");
