@@ -10,7 +10,7 @@ class Triangle {
 };
 
 Triangle::Triangle(double side, double height) {
-	if (((side * height * 0.5) > 0)&&(side > 0 && height > 0)) {
+	if ((side > 0 && height > 0)) {
 		_side = side;
 		_height = height;
 	}
